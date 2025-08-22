@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portal Esportivo</title>
+  <meta name="description" content="Seu hub de notícias esportivas" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <h1>🏆 Portal Esportivo</h1>
+      <nav>
+        <a href="#">Futebol</a>
+        <a href="#">Basquete</a>
+        <a href="#">Vôlei</a>
+        <a href="#">Mais</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Principais manchetes</h2>
+      <p>Em breve: notícias automáticas puxadas da web. Por agora, alguns cards de exemplo.</p>
+      <div class="actions">
+        <input id="search" placeholder="Buscar notícia..." />
+        <button id="btnClear">Limpar</button>
+      </div>
+    </section>
+
+    <section id="newsGrid" class="grid"></section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© <span id="year"></span> Portal Esportivo — Feito com ♥</small>
+    </div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
